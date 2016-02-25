@@ -55,7 +55,7 @@
 	<h1 class="theTitle"><a href="http://dtraleigh.com/">The Raleigh Connoisseur</a></h1>
 	<div id="socialHeader">
 		<ul id="social">
-			<li><a href="http://feeds.feedburner.com/ralcon"><img src="<?php bloginfo('template_url'); ?>/images/rss.png"></a></li>
+			<li><a href="http://dtraleigh.com/?feed=rss2"><img src="<?php bloginfo('template_url'); ?>/images/rss.png"></a></li>
 			<li><a href="http://twitter.com/dtraleigh"><img src="<?php bloginfo('template_url'); ?>/images/twitter.png"></a></li>
 		</ul>
 	</div>
@@ -75,7 +75,7 @@
 <div id="banner_wrapper">
 	<div id="banner"></div>
 	<div class="banner_info">
-		<p>Walking and dining alfresco on Fayetteville Street.</p>
+		<p>Historic storefronts along Wilmington Street.</p>
 	</div>
 </div>
 <div id="container">

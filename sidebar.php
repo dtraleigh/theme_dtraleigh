@@ -2,20 +2,25 @@
 
 
 <div class="sidebarSubscribe">
-	<form 
-		action="http://feedburner.google.com/fb/a/mailverify" 	
-		method="post" 	
-		target="popupwindow" 	
-		onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=ralcon', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-		<input type="text" id="subscribeText1" class="emailSubscribe" align="center" value="Enter your email address" name="email" />
-		<input type="hidden" value="ralcon" name="uri"/>
-		<input type="hidden" name="loc" value="en_US"/>
-		<input type="submit" value="Submit" align="center" class="subscribeButton">
-	</form>
+	<!-- Begin MailChimp Signup Form -->
+	<div id="mc_embed_signup">
+		<form action="//dtraleigh.us4.list-manage.com/subscribe/post?u=6c2ac2e17917be479265243f1&amp;id=aa2eab7f78" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<div id="mc_embed_signup_scroll">
+			<label for="mce-EMAIL">Subscribe to our mailing list</label>
+			<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+			<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			<div style="position: absolute; left: -5000px;"><input type="text" name="b_6c2ac2e17917be479265243f1_aa2eab7f78" tabindex="-1" value=""></div>
+			<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+			</div>
+		</form>
+	</div>
+	<!--End mc_embed_signup-->
 </div>
 
 
-    <div id="recentComments">
+
+<!-- Start recentComments section -->
+    <div id="recentComments">		
 	    <ul>
 		<?php if (function_exists('get_recent_comments')) { ?>
             <li><h2><?php _e('Recent Comments'); ?></h2>
@@ -26,7 +31,8 @@
         <?php } ?>   
         <?php if (function_exists('get_recent_trackbacks')) { ?>
         <?php } ?>
-	    </ul>
+	    </ul>				
+	Comments feed <a href="http://dtraleigh.com/comments/feed/"><img src="<?php bloginfo('template_url'); ?>/images/rss.png"></a>
     </div>
     <div id="sidebarTopics">
 		<h2>Blog Post Topics</h2>

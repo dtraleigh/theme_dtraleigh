@@ -1,2 +1,9 @@
 [03-Apr-2012 06:49:31] PHP Fatal error:  Call to undefined function  get_header() in /home/cophead/public_html/dtraleigh.com/wp-content/themes/WP_Premium_black/index.php on line 1
 [03-Apr-2012 06:49:31] PHP Fatal error:  Call to undefined function  get_header() in /home/cophead/public_html/dtraleigh.com/wp-content/themes/WP_Premium_black/index.php on line 1
+[02-Mar-2015 07:58:56 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home4/cophead/public_html/dtraleigh.com/wp-content/themes/DTRaleigh_theme_2012/index.php on line 1
+[02-Mar-2015 07:59:25 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home4/cophead/public_html/dtraleigh.com/wp-content/themes/DTRaleigh_theme_2012/index.php on line 1
+[18-Mar-2015 01:38:43 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home4/cophead/public_html/dtraleigh.com/wp-content/themes/DTRaleigh_theme_2012/404.php on line 1
+[17-May-2015 08:59:01 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home4/cophead/public_html/dtraleigh.com/wp-content/themes/DTRaleigh_theme_2012/index.php on line 1
+[19-Jul-2015 05:26:38 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home4/cophead/public_html/dtraleigh.com/wp-content/themes/DTRaleigh_theme_2012/404.php on line 1
+[23-Sep-2015 05:10:58 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home4/cophead/public_html/dtraleigh.com/wp-content/themes/DTRaleigh_theme_2012/index.php on line 1
+[04-Dec-2015 04:53:44 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home4/cophead/public_html/dtraleigh.com/wp-content/themes/DTRaleigh_theme_2012/index.php on line 1
