@@ -12,7 +12,7 @@
 
 <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats -->
 
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/style.min.css" type="text/css" media="screen" />
 
 
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
@@ -64,12 +64,12 @@
 	<hr>
 </div>
 
-<nav class="clearfix">  
+<nav class="clearfix">
     <ul class="clearfix">
-        <li class="<?php if (is_home()) { echo "current_page_item"; } ?>"><a href="<?php echo get_settings('home'); ?>">Home</a></li>	
-		<?php wp_list_pages('title_li=&depth=1&exclude='); ?>   
-    </ul>  
-    <a href="#" id="pull">Menu ></a>  
+        <li class="<?php if (is_home()) { echo "current_page_item"; } ?>"><a href="<?php echo get_settings('home'); ?>">Home</a></li>
+		<?php wp_list_pages('title_li=&depth=1&exclude='); ?>
+    </ul>
+    <a href="#" id="pull">Menu ></a>
 </nav>
 
 <div id="banner_wrapper">
