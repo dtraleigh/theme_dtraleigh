@@ -684,6 +684,7 @@ Sidebar section
     padding: 15px 5px;
     margin: 0 0 15px 0;
     background: #F5F5F5;
+	border-radius: 10px;
 }
 
 label.subscribeText1, p.subscribeText1 {
@@ -691,6 +692,24 @@ label.subscribeText1, p.subscribeText1 {
     text-align: left;
     font: 300 16px/1 'Open Sans', Verdana, Helvetica, sans-serif;
     padding: 5px 0px;
+}
+
+#donate {
+    display: block;
+    height: 100%;
+    padding: 15px 5px;
+    margin: 0 0 15px 0;
+    background: #D6F0FF;
+	border-radius: 10px;	
+}
+
+#donate_button {
+	text-align: center;
+}
+
+#donate_descr p{
+    font: 300 15px/1 'Open Sans', Verdana, Helvetica, sans-serif;
+	text-align: center;
 }
 
 input.emailSubscribe {

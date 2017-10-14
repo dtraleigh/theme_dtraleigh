@@ -25,15 +25,21 @@
         </div>
         <!--End mc_embed_signup-->
       </div>
-      <div>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick" /> 
-        <input type="hidden" name="hosted_button_id" value="VVW5NR3TF65V8" /> 
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
-        alt="PayPal - The safer, easier way to pay online!" /> 
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" /></form>
-		<p>This blog has been going strong for 10 years. Any support for my work would be appreciated.</p>
+	  <!-- Donate box -->
+      <div id="donate">
+		<div id="donate_button">
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick" /> 
+			<input type="hidden" name="hosted_button_id" value="VVW5NR3TF65V8" /> 
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
+			alt="PayPal - The safer, easier way to pay online!" /> 
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" /></form>
+		</div>
+		<div id="donate_descr">
+			<p>This blog has been going strong for 10 years. Any support for my work would be appreciated.</p>	
+		</div>
       </div>
+	  <!-- end Donate box -->
       <!-- Start recentComments section -->
       <div id="recentComments">
       <ul>
