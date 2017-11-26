@@ -712,6 +712,10 @@ label.subscribeText1, p.subscribeText1 {
 	text-align: center;
 }
 
+#donate_mobile_text{
+	display:none;
+}
+
 input.emailSubscribe {
     padding: 9px;
     margin-left: 5%;
@@ -1845,7 +1849,7 @@ Responsive design elements
 @media (max-width:768px) {
     #header {
         width: 100%;
-        height: 50px;
+        height: 75px;
         float: none;
         clear: both;
     }
@@ -1921,6 +1925,23 @@ Responsive design elements
     #header_hr {
         display: block;
     }
+	#donate_mobile_text{
+		display:inline-block;
+	}
+	#donate_mobile_link{
+		text-decoration: none !important;
+		color: black;
+	}
+	#outer_donate_mobile{
+		padding: 40px;
+	}
+	#donate_mobile{
+		background: #ee6947;
+		padding: 5px;
+		border-radius: 5px;
+		text-align: center;
+		font: 300 15px/1 'Open Sans', Verdana, Helvetica, sans-serif;
+	}
     nav {
         height: auto;
         border-bottom: 0;

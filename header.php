@@ -53,6 +53,13 @@
 <body>
 <div id="header">
 	<h1 class="theTitle"><a href="https://dtraleigh.com/">The Raleigh Connoisseur</a></h1>
+	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9KK9DK6PMZ6J8" id="donate_mobile_link">
+		<div id="outer_donate_mobile">
+			<div id="donate_mobile">
+				<span id="donate_mobile_text">Over 10 Years! Support the blog here.</span>
+			</div>
+		</div>
+	</a>
 	<div id="socialHeader">
 		<ul id="social">
 			<li><a href="https://dtraleigh.com/?feed=rss2"><img src="<?php bloginfo('template_url'); ?>/images/rss.png"></a></li>
