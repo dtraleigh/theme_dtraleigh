@@ -712,6 +712,11 @@ label.subscribeText1, p.subscribeText1 {
 	text-align: center;
 }
 
+#donate_tablet{
+	display:none;
+	background: #ee6947;
+}
+
 #donate_mobile_text{
 	display:none;
 }
@@ -1787,6 +1792,9 @@ Responsive design elements
     .theTitle a {
         font: 500 26px/1.5 'Cantata One', Georgia, serif;
     }
+	#donate_tablet{
+		display:none;
+	}
     nav ul {
         width: 100%;
     }
@@ -1859,6 +1867,9 @@ Responsive design elements
     #banner_wrapper {
         height: 172px;
     }
+	#donate_tablet{
+		display:block;
+	}
     .theTitle a {
         font: 400 24px/1.5 'Cantata One', Georgia, serif;
     }
@@ -1925,6 +1936,9 @@ Responsive design elements
     #header_hr {
         display: block;
     }
+	#donate_tablet{
+		display:none;
+	}
 	#donate_mobile_text{
 		display:inline-block;
 	}
@@ -2001,6 +2015,9 @@ Responsive design elements
         display: block;
         clear: both;
     }
+	#donate_tablet{
+		display:none;
+	}
     #banner_wrapper {
         display: none;
     }
@@ -2050,6 +2067,9 @@ Responsive design elements
 }
 
 @media only screen and (max-width: 320px) {
+	#donate_tablet{
+		display:none;
+	}
     nav li {
         display: block;
         float: none;

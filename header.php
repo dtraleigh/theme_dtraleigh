@@ -75,6 +75,7 @@
     <ul class="clearfix">
         <li class="<?php if (is_home()) { echo "current_page_item"; } ?>"><a href="<?php echo get_settings('home'); ?>">Home</a></li>
 		<?php wp_list_pages('title_li=&depth=1&exclude='); ?>
+		<li><a id="donate_tablet" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9KK9DK6PMZ6J8">Donate</a></li>
     </ul>
     <a href="#" id="pull">Menu ></a>
 </nav>
