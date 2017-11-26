@@ -2,7 +2,7 @@
 <html>
 
 <head>
-<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/js/jquery-migrate-1.4.1.js"></script>
+<script type="text/javascript" src="<?php bloginfo('stylesheet_directory'); ?>/jquery.min.js"></script>
 
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
