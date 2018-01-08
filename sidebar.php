@@ -49,7 +49,7 @@
 		</li><?php } ?><?php if (function_exists('get_recent_trackbacks')) { ?><?php } ?>
 	</ul>Comments feed 
 	<a href="http://dtraleigh.com/comments/feed/">
-		<img src="%3C?php%20bloginfo(&#39;template_url&#39;);%20?%3E/images/rss.png" />
+		<img src="<?php bloginfo(template_url);?>/images/rss.png" />
 	</a></div>
 	<div id="sidebarTopics">
 		<h2>Blog Post Topics</h2>
