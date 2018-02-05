@@ -703,7 +703,11 @@ label.subscribeText1, p.subscribeText1 {
 	border-radius: 10px;	
 }
 
-#donate_button {
+#donate img{
+	width: 75px;	
+}
+
+.donate_button {
 	text-align: center;
 }
 
