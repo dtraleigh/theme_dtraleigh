@@ -694,13 +694,16 @@ label.subscribeText1, p.subscribeText1 {
     padding: 5px 0px;
 }
 
-#donate {
+#donate, #community {
     display: block;
     height: 100%;
     padding: 15px 5px;
     margin: 0 0 15px 0;
-    background: #D6F0FF;
 	border-radius: 10px;	
+}
+
+#donate {
+    background: #D6F0FF;	
 }
 
 #donate img{
@@ -724,6 +727,8 @@ label.subscribeText1, p.subscribeText1 {
 #donate_mobile_text{
 	display:none;
 }
+
+
 
 input.emailSubscribe {
     padding: 9px;

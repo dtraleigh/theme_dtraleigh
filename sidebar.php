@@ -36,6 +36,17 @@
 		</div>
 	</div>
 	<!-- end Donate box -->
+	<!-- community box -->
+	<div id="community">
+		<a href="https://community.dtraleigh.com/">
+			<img src="https://dtraleigh.com/images/logos/community_logo2_350w.jpg" />
+		</a>
+		<div id="donate_descr">
+			<p>Continue to discuss with other downtown Raleigh aficionados on the DTRaleigh Community, an online forum for civilized conversation. </p>
+			<p><a href="https://community.dtraleigh.com/">Check it out!</a></p>
+		</div>
+	</div>
+	<!-- end community box -->
 	<!-- Start recentComments section -->
 	<div id="recentComments">
 	<ul>
