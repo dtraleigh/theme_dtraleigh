@@ -30,7 +30,7 @@
 		
 	<!--include comments template-->
 	<?php comments_template(); ?>
-	
+		
 	<!--do not delete-->
 	<?php endwhile; else: ?>
 	

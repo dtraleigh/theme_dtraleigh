@@ -47,22 +47,6 @@
 		</div>
 	</div>
 	<!-- end community box -->
-	<!-- Start recentComments section -->
-	<div id="recentComments">
-	<ul>
-		<?php if (function_exists('get_recent_comments')) { ?>
-		<li>
-			<h2>
-				<?php _e('Recent Comments'); ?>
-			</h2>
-			<ul>
-				<?php get_recent_comments(); ?>
-			</ul>
-		</li><?php } ?><?php if (function_exists('get_recent_trackbacks')) { ?><?php } ?>
-	</ul>Comments feed 
-	<a href="http://dtraleigh.com/comments/feed/">
-		<img src="<?php bloginfo(template_url);?>/images/rss.png" />
-	</a></div>
 	<div id="sidebarTopics">
 		<h2>Blog Post Topics</h2>
 		<ul>
