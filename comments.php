@@ -93,6 +93,6 @@
 </form>
 
 <?php else : // Comments are closed ?>
-<p><?php _e('Sorry, the comment form is closed at this time.'); ?></p>
+<p><?php _e('Sorry, comments have been archived. Please continue the discussion on the <a href="https://community.dtraleigh.com/">DTRaleigh Community.</a>'); ?></p>
 <?php endif; ?>
 </div>
