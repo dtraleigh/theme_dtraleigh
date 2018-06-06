@@ -10,8 +10,9 @@
 	<!--Post Meta-->
 	<div class="post-meta-top">
 		<div class="auth"><span>Posted by <strong><?php the_author_posts_link(); ?></strong> | </span></div>
-		<div class="date"><span><?php the_time('F j, Y'); ?> | </span></div>
-		<div class="comm"><span><strong><?php comments_popup_link('0 Comments', '1 Comment', '% Comments'); ?></strong></span></div>
+		<div class="date"><span><?php the_time('F j, Y'); ?></span></div>
+		<!--
+		<div class="comm"><span><strong><?php comments_popup_link('0 Comments', '1 Comment', '% Comments'); ?></strong></span></div>-->
 	</div>
 	<div class="clearboth"></div>
 	<!--read more-->
