@@ -26,10 +26,10 @@
 			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" style="display: inline-grid;">
             <input type="hidden" name="cmd" value="_s-xclick" /> 
             <input type="hidden" name="hosted_button_id" value="9KK9DK6PMZ6J8" /> 
-            <input type="image" src="<?php bloginfo(template_url);?>/images/PayPal-Donate-Button-Download-PNG.png" border="0" name="submit"
+            <input type="image" src="<?php bloginfo('template_url');?>/images/PayPal-Donate-Button-Download-PNG.png" border="0" name="submit"
             alt="PayPal - The safer, easier way to pay online!" width="75px"/> 
             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" /></form>
-			<a href="https://venmo.com/dtraleigh"><img src="<?php bloginfo(template_url);?>/images/venmo_button.png" alt="@DTRaleigh on Venmo"></a>
+			<a href="https://venmo.com/dtraleigh"><img src="<?php bloginfo('template_url');?>/images/venmo_button.png" alt="@DTRaleigh on Venmo"></a>
 		</div>
 		<div id="donate_descr">
 			<p>This blog has been going strong for 10 years. Any support for my work would be appreciated.</p>
